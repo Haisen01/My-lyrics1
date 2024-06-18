@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+    <center>
+    <form class="container">
+        
+        <h1>LOGIN</h1><br>
+        
+        <label for="username" id="userName">Username</label><br>
+        <input type="text" required><br>
+        <label for="password" id="pass">Password</label><br>
+        <input type="password" maxlength="16" id="password" required><br>
+        <button id="myBtn">Login</button><br>
+        
+       <a href="createAccount.html">
+           <h5>create account?</h5>
+       </a>
+        
+        <script>
+            let name = document.getElementById("userName");
+            
+            let pass = document.getElementById("password");
+            
+            
+            const button = document.getElementById("myBtn");
+            button.onclick = function(){
+                
+                if(name.value !=="admin" && pass.value !== "admin"){
+                    window.open('content.html');
+                    
+                } else {
+                    alert("cant login")
+                }
+                
+                
+                
+            }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </script>
+        
+        
+    
+        
+    </form>
+    </center>
+    
+    
+</body>
+</html>
