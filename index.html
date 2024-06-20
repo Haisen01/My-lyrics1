@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsUoSfqwnhe1C0_5glmeM4PnZVMSUXTK-UDw&s" type="image/x-icon">
+    <title>login</title>
+</head>
+<body>
+    
+    
+    
+    <div class="wrapper">
+        <form class="container">
+            <h1>Login</h1><br>
+            
+           <div class="input-box">
+            <input type="text" name="username" id="userName"  placeholder="username" required>
+            </div>
+            <br>
+            <div class="input-box">
+            <input type="password" maxlength="16" id="pass" placeholder="password" required>
+            </div>
+            <br>
+            <button id="button">submit</button><br>
+            
+            
+            
+            
+            
+            
+            
+           
+            
+           
+                 <h6 >Creator: Franz Acebedo</h6>
+           
+             
+        </form>
+    </div><br>
+    
+    
+    
+    
+    
+   
+    
+    <script >
+        
+        window.alert("This claimer for user visited in this site!")
+        window.alert("this content it's  for educational purposes and testing  my skills in programming");
+        window.alert("have fun")
+        
+        const button = document.getElementById("button");
+        
+        button.onclick = function(){
+            let username = document.getElementById("userName").value;
+            
+            let password = document.getElementById("pass").value;
+            
+            
+            
+            //condition if username and password 
+            
+            if (username === "admin" && password === "admin") {
+                window.open('AdminContent.html');
+                //admin webpage
+                //01
+                
+            } else if(username ==="root" && password ==="crush"){
+            window.open('CrushContent.html');
+            
+            //crush webpage
+            //02
+            
+            }
+            else if(username =="hakdog" && password ==""){
+          window.open('forFun.html');
+              
+                //trippings webpage
+                //03
+                
+                
+            } else if(username =="named" && password =="rheanna"){
+                
+                window.open('bestfriendContent.html');
+                
+                //bestfriend webpage
+                
+                //04
+                
+            }else if(username ==="yannapott" && password ===""){
+                window.open('asar.html')
+                //06
+                //mangaasar
+            }else if(username ==="snakeGame"&& password ==="12345"){
+            
+            window.open('https://haisen01.github.io/ggrc/');
+            
+            }else if(username === "Temp" && password == "12345"){
+            
+            window.open('https://haisen01.github.io/FranzAcebedo/')
+            
+            
+            }else if(username === "memories" && password === "G7"){
+             window.open('https://g-7-lotus-memories79.webnode.page/')   
+                
+                
+                
+                
+            }else if( username ==="account" && password ==="pangit"){
+           window.open('https://rheanna-ruz.webnode.page/') 
+            
+            
+            
+            }else if(username && password){
+            
+                window.open('visitorContent.html');
+              //main webpage
+              //05
+              
+            }else{
+                alert("can't login");
+               
+            }
+           
+        }
+        
+        
+        
+    </script>
+    
+</body>
+</html>

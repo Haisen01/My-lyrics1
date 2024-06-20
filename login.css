@@ -1,0 +1,89 @@
+body{
+    background-color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+form{
+    text-align: center;
+    font-weight: bold;
+    width: 450px;
+    margin: auto;
+    height: 350px;
+    margin-top: 100px;
+    font-family: san-serif;
+    padding-top: 15px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 7px 7px 7px aqua,7px 7px 7px cyan;
+    font-weight: bold;
+    color:white;
+    text-shadow: 5px 5px 5px cyan,5px 5px 5px skyblue;
+}
+.container{
+   background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-size: 300% 300%;
+    background-repeat: no-repeat;
+    
+    animation: color 12s ease-in-out infinite;
+    
+}
+
+@keyframes color {
+    0%{
+        background-position: 0% 50%;
+    }
+    
+    
+    50%{
+        background-position: 100% 50%;
+    }
+    
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+input{
+    border:none;
+    border-radius: 7px;
+    font-size: 20px;
+    outline: none;
+    font-weight: bold;
+    background-color: aquamarine;
+    color: #101320eb;
+}
+button{
+    font-size: 20px;
+    border:none;
+    border-radius: 7px;
+    background-color: skyblue;
+    color: whitesmoke;
+    cursor: pointer;
+}
+button:hover{
+    font-size: 23px;
+    background-color: cyan;
+    color: ghostwhite;
+    font-weight: bold;
+}
+input:hover{
+    font-size: 25px;
+    font-weight: bold;
+}
+h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h6{
+    bottom: 0px;
+    font-weight: bold;
+   
+}

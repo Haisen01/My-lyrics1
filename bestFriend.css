@@ -1,0 +1,42 @@
+
+body{
+;
+    color: lightgreen;
+    text-shadow: 5px 5px 5px violet,5px 5px 5px red;
+}
+
+
+.container{
+background-image: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.content{
+        background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+        background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+width: 450;
+margin: auto; 
+padding: 25px;
+border: none;
+border-radius: 25px;
+box-shadow: 10px 10px 10px hotpink, 10px 10px 10px purple;    
+}
+#profile{
+    border-radius: 50%;
+    border: none;
+    box-shadow: 7px 7px 7px violet,7px 7px 7px red;
+}
+h2:hover{
+    font-size: 30px;
+    color: purple;
+    text-shadow: 5px 5px 5px cyan,-5px -5px 5px violet;
+}
+#gallery{
+    border: none;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px purple,10px 10px 10px red;
+    
+}
